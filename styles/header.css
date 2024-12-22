@@ -19,4 +19,9 @@
 #secondary {
   justify-content: space-between;
   padding-block: 14px;
+
+  a {
+    font: var(--span-text);
+    color: var(--text-color-secondary);
+  }
 }
