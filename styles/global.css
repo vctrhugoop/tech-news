@@ -27,6 +27,10 @@ body {
   background-color: var(--bg-color);
 }
 
+img {
+  max-width: 100%;
+}
+
 a {
   text-decoration: none;
   color: inherit;
@@ -38,4 +42,8 @@ a {
 
 h1, h2, h3 {
   font: inherit;
+}
+
+main {
+  margin-top: 40px;
 }
