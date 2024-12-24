@@ -24,3 +24,18 @@
   border: 1px solid var(--stroke-color);
   border-inline: none;
 }
+.text-sm {
+  font: var(--span-text)
+}
+
+.text-lg {
+  font: var(--h3)
+}
+
+.text-xl {
+  font: var(--h2)
+}
+
+.text-2xl {
+  font: var(--h1)
+}
