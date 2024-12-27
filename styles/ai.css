@@ -1,13 +1,12 @@
-#most-read {
-  grid-area: most-read;
-
-  margin-block: 80px;
-  padding-block: 12px 24px;
+#ai {
+  grid-area: ai;
+  padding-top: 12px;
 
   border-top: 1px solid var(--stroke-color);
 
-  .most-read-heading {
+  .ai-heading {
     color: var(--text-color-secondary);
+    margin-bottom: 24px;
 
     a {
       justify-self: end;
@@ -27,26 +26,23 @@
     }    
   }
 
-  .most-read-posts {
-    margin-top: 24px;
+  article {
+    height: 176px;
+    grid-template-columns: 1fr 176px;
+    margin-bottom: 32px;
 
-    grid-template-columns:repeat(4, 1fr);
-    justify-content: space-between;
+    h3 {
+      margin-block: 8px 4px;
+    }
 
-    figure {
-      position: relative;
+    p {
+      color: var(--text-color-secondary);
+    }
 
-     
-      
-      span {
-        position: absolute ;
-        top: 10px;
-        left: 10px;
-      }
-
-      img {
-       height: 168px;
-      }
+    img {
+      justify-self: end;
+      width: 176px;
+      height: 176px;
     }
   }
 }

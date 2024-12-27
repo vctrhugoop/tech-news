@@ -17,7 +17,11 @@
 }
 
 .gap-16{
-  gap:16px;
+  gap: 16px;
+}
+
+.gap-32{
+  gap: 32px;
 }
 
 .divisor {
@@ -26,6 +30,10 @@
 }
 .text-sm {
   font: var(--span-text)
+}
+
+.text-base {
+  font: var(--paragraph-text)
 }
 
 .text-lg {
